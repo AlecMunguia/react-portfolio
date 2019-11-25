@@ -1,11 +1,11 @@
 import React from 'react';
 import './App.css';
-import './components/Navbar';
-import './components/Home';
-import './components/AboutMe';
-import './components/Skills';
-import './components/Work';
-import './components/Contact';
+import Navbar from './components/Navbar';
+import Home from './components/Home';
+import AboutMe from './components/AboutMe';
+import Skills from './components/Skills';
+import Work from './components/Work';
+import Contact from './components/Contact';
 
 function App() {
   return (
