@@ -1,0 +1,23 @@
+.Navbar {
+  height: 60px;
+  background-color: #333;
+  box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.Table {
+  display: table;
+  margin: 0 auto;
+}
+
+
+.Links {
+  min-width: 300px;
+  list-style-type: none;
+  padding-top: 15px;
+}
+
+.Links li {
+  display: inline;
+  padding-left: 5px;
+  padding-right: 5px;
+}

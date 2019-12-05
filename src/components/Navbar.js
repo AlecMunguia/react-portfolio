@@ -1,13 +1,13 @@
 import React from 'react'
-import '../App.css';
+import './style/Navbar.css'
 import {BrowserRouter as Router, Link} from 'react-router-dom'
 
 function Navbar() {
     return(
-        <Router ClassName="Navbar">
-            <div>
-                <nav>
-                    <ul>
+        <Router>
+            <div className='Navbar'>
+                <nav className='Table'>
+                    <ul className='Links'>
                         <li>
                             <Link to='/'>Home</Link>
                         </li>
