@@ -1,0 +1,49 @@
+.Home {
+    background: rgb(4, 4, 12);
+    background-image: url("../../assets/dark-geometric.png")
+    ;
+    height: 100vh;
+}
+
+.Text {
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    -webkit-animation: Text 5s linear both;
+    animation: Text 5s linear both;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 50px;
+    color: #09d3ac;
+}
+
+.Text .Subtext {
+    position: relative;
+    text-align: center;
+    -webkit-animation: Text 5s linear both;
+    animation: Text 5s linear both;
+    animation-delay: 2.3s;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 32px;
+    color: rgb(245, 242, 218);
+}
+
+@-webkit-keyframes Text {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  @keyframes Text {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
