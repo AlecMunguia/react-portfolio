@@ -12,8 +12,8 @@
     left: 50%;
     margin-right: -50%;
     transform: translate(-50%, -50%);
-    -webkit-animation: Text 5s linear both;
-    animation: Text 5s linear both;
+    -webkit-animation: Text 3s linear both;
+    animation: Text 3s linear both;
     font-family: 'Quicksand', sans-serif;
     font-size: 50px;
     color: #09d3ac;
@@ -22,9 +22,9 @@
 .Text .Subtext {
     position: relative;
     text-align: center;
-    -webkit-animation: Text 5s linear both;
-    animation: Text 5s linear both;
-    animation-delay: 2.3s;
+    -webkit-animation: Text 3s linear both;
+    animation: Text 3s linear both;
+    animation-delay: 1.5s;
     font-family: 'Quicksand', sans-serif;
     font-size: 32px;
     color: rgb(245, 242, 218);
