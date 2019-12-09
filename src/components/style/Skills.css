@@ -1,0 +1,26 @@
+li {
+    list-style-type: none;
+    color: rgb(245, 242, 218);
+}
+
+.Skills {
+    background: rgb(4, 4, 12);
+    background-image: url("../../assets/dark-geometric.png")
+    ;
+    height: 100vh;
+    font-family: 'Quicksand', sans-serif;
+}
+
+h1 {
+    position: absolute;
+    top: 25%;
+    left: 14%;
+}
+
+.SkillsList {
+    position: relative;
+    top: 25%;
+    left: 10%;
+    margin-right: -50%;
+    font-size: 20px;
+} 
